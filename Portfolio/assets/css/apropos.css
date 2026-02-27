@@ -1,0 +1,88 @@
+h3 {
+    color: #230b7a;
+}
+
+p {
+    color: #ffffff;
+}
+
+
+
+.cadre {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.ecole {
+    width: 48%;
+}
+
+.entreprise {
+    width: 48%;
+}
+
+.titre-carte h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #230b7a;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.periode {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #3535356e; 
+    backdrop-filter: blur(5px);
+    border: 1px solid #444444;
+}
+
+.carte {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    background-color: #3535356e; 
+    backdrop-filter: blur(5px);
+    border: 1px solid #444444;
+}
+
+.carte:hover {
+    transform: scale(1.02);
+    color: white;
+}
+
+.texte {
+    width: 70%;
+    padding-left: 20px;
+}
+
+img {
+    width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    object-fit: cover;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.vert {
+    color: #64ff9f;
+}
