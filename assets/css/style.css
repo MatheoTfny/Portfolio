@@ -1,0 +1,132 @@
+:root {
+  --fond: #09090b;
+  --surface: rgba(20, 20, 24, 0.82);
+  --surface-hover: rgba(30, 30, 36, 0.9);
+  --bordure: #27272a;
+  --bordure-forte: #3f3f46;
+
+  --texte: #f4f4f5;
+  --texte-doux: #a1a1aa;
+  --texte-faible: #71717a;
+
+  --accent: #8b7cf6;     
+  --accent-fonce: #483ac4; 
+  --accent-fond: rgba(72, 58, 196, 0.16);
+  --vert: #4ade80;
+
+  --rayon: 14px;
+  --police-titre: "Space Grotesk", system-ui, sans-serif;
+  --police-texte: "Inter", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: var(--police-texte);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--accent);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--police-titre);
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.icone {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.bouton-principal {
+  background: var(--accent-fonce);
+  color: #fff;
+}
+
+.bouton-principal:hover {
+  background: #5a4bd8;
+  transform: translateY(-2px);
+}
+
+.bouton-secondaire {
+  border: 1px solid var(--bordure-forte);
+  color: var(--texte);
+}
+
+.bouton-secondaire:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tags li {
+  padding: 3px 10px;
+  border: 1px solid var(--bordure-forte);
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--texte-doux);
+}
+
+.tags-accent li {
+  border-color: var(--accent-fonce);
+  color: var(--texte);
+  background: var(--accent-fond);
+}
+
+.vert {
+  color: var(--vert);
+}

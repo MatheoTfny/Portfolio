@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missions E5 | Mathéo THEFANY</title>
+    <meta name="description" content="Portfolio de Mathéo THEFANY, étudiant en BTS SIO option SLAM à Ynov Nanterre, alternant au Groupe Renault.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/background.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+<body>
+    <header id="header" class="entete"></header>
+
+    <main class="contenu">
+        <section id="missions" class="section">
+            <h1>Missions E5</h1>
+            <p class="intro">
+                Mes réalisations en formation, en entreprise et sur mon temps personnel,
+                avec les compétences du bloc 1 qu'elles mobilisent.
+            </p>
+
+            <div class="filtres" role="group" aria-label="Filtrer les réalisations">
+                <button type="button" class="filtre actif" data-filtre="tout">Tout</button>
+                <button type="button" class="filtre" data-filtre="entreprise">Entreprise</button>
+                <button type="button" class="filtre" data-filtre="formation">Formation</button>
+                <button type="button" class="filtre" data-filtre="personnel">Personnel</button>
+            </div>
+
+            <div class="grille-missions">
+
+                <article class="mission" data-categorie="entreprise" data-comp="B1.1 B1.2 B1.5">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">DWS</span>
+                        <div>
+                            <p class="mission-contexte">Entreprise · Renault · 2024-2025</p>
+                            <h3>Digital Workstation (DWS)</h3>
+                        </div>
+                    </div>
+                    <p>
+                        Installation et configuration de 10 tablettes en bout des lignes de presse (emboutissage)
+                        pour les auditeurs et conducteurs de ligne : OK Start et plan de maintenance autonome
+                        digitalisés, alertes HelpCall envoyées aux chefs d'unité.
+                    </p>
+                    <ul class="tags"><li>Déploiement</li><li>Configuration</li><li>Maintenance</li></ul>
+                    <div class="mission-comp"></div>
+                    <a class="lien-doc" href="assets/docs/dossier-dws.pdf" target="_blank" rel="noopener">
+                        <svg class="icone"><use href="#i-file"/></svg>Dossier DWS (PDF)
+                    </a>
+                </article>
+
+                <article class="mission" data-categorie="entreprise" data-comp="B1.4 B1.5">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">QUIZ</span>
+                        <div>
+                            <p class="mission-contexte">Entreprise · Renault · 2026</p>
+                            <h3>Dojo Énergie</h3>
+                        </div>
+                        <span class="statut">En cours</span>
+                    </div>
+                    <p>
+                        Application de quiz en temps réel, façon Kahoot, pour animer les dojos de sensibilisation
+                        aux économies d'énergie : tablettes joueurs, interface d'administration et écran de projection.
+                    </p>
+                    <ul class="tags"><li>PHP</li><li>MySQL</li><li>JavaScript</li><li>Sessions</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="entreprise" data-comp="B1.1 B1.2 B1.5">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">SUP</span>
+                        <div>
+                            <p class="mission-contexte">Entreprise · Renault · 2026</p>
+                            <h3>Supervision applicative</h3>
+                        </div>
+                        <span class="statut">En cours</span>
+                    </div>
+                    <p>
+                        Outil qui surveille l'état des applications du service et historise les pannes,
+                        pour réagir plus vite et garder une trace des incidents.
+                    </p>
+                    <ul class="tags"><li>PHP</li><li>MySQL</li><li>Supervision</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="entreprise" data-comp="B1.1 B1.4 B1.6">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">APP</span>
+                        <div>
+                            <p class="mission-contexte">Entreprise · Renault · 2025-2027</p>
+                            <h3>Pilotage du parc applicatif</h3>
+                        </div>
+                    </div>
+                    <p>
+                        Hébergement et maintenance des applications développées par les apprentis du service,
+                        définition des standards de développement (nommage, structure, Git) et animation
+                        d'un point d'équipe hebdomadaire.
+                    </p>
+                    <ul class="tags"><li>Hébergement</li><li>Standards</li><li>Git</li><li>Animation</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="entreprise" data-comp="B1.4 B1.5">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">VOK</span>
+                        <div>
+                            <p class="mission-contexte">Entreprise · Renault</p>
+                            <h3>VOK</h3>
+                        </div>
+                        <span class="statut">En cours</span>
+                    </div>
+                    <p>Création d'un outil de suivi de production pour les équipes de l'usine.</p>
+                    <ul class="tags"><li>Suivi de production</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="entreprise" data-comp="B1.5">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">BI</span>
+                        <div>
+                            <p class="mission-contexte">Entreprise · Renault · 2023-2025</p>
+                            <h3>Tableaux de bord Looker</h3>
+                        </div>
+                    </div>
+                    <p>Tableaux de bord pour visualiser la production, les pannes et les arrêts de production.</p>
+                    <ul class="tags"><li>Looker</li><li>Données</li></ul>
+                    <div class="mission-comp"></div>
+                </article>
+
+                <article class="mission" data-categorie="formation" data-comp="B1.3 B1.4">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">E-E</span>
+                        <div>
+                            <p class="mission-contexte">Formation · Ynov · projet de groupe</p>
+                            <h3>E-enseignement</h3>
+                        </div>
+                    </div>
+                    <p>
+                        Site dynamique de cours et d'exercices pour la promo, réalisé en équipe.
+                        Mon rôle : rédaction du cahier des charges (besoins, arborescence, besoins fonctionnels).
+                    </p>
+                    <ul class="tags"><li>Cahier des charges</li><li>PHP / MySQL</li><li>Trello</li><li>GitHub</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="formation" data-comp="B1.5">
+                    <div class="mission-haut">
+                        <span class="mission-logo"><img src="assets/img/apache.svg" alt=""></span>
+                        <div>
+                            <p class="mission-contexte">Formation · Ynov</p>
+                            <h3>Serveur Apache 2</h3>
+                        </div>
+                    </div>
+                    <p>Installation et configuration d'un serveur web Apache 2 sous Linux, accessible en HTTPS.</p>
+                    <ul class="tags"><li>Linux</li><li>Apache 2</li><li>HTTPS</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="formation" data-comp="B1.1">
+                    <div class="mission-haut">
+                        <span class="mission-logo"><img src="assets/img/glpi.svg" alt=""></span>
+                        <div>
+                            <p class="mission-contexte">Formation · Ynov</p>
+                            <h3>GLPI</h3>
+                        </div>
+                    </div>
+                    <p>Mise en place de GLPI pour l'inventaire et la gestion du parc informatique.</p>
+                    <ul class="tags"><li>Gestion de parc</li><li>Inventaire</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="formation" data-comp="B1.1">
+                    <div class="mission-haut">
+                        <span class="mission-logo"><img src="assets/img/ocs-inventory.jpg" alt=""></span>
+                        <div>
+                            <p class="mission-contexte">Formation · Ynov</p>
+                            <h3>OCS Inventory</h3>
+                        </div>
+                    </div>
+                    <p>Déploiement d'OCS Inventory pour remonter l'inventaire matériel et logiciel des postes.</p>
+                    <ul class="tags"><li>Inventaire</li><li>Agents</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="formation" data-comp="B1.6">
+                    <div class="mission-haut">
+                        <span class="mission-logo"><img src="assets/img/symfony.svg" alt=""></span>
+                        <div>
+                            <p class="mission-contexte">Formation · Ynov</p>
+                            <h3>Symfony</h3>
+                        </div>
+                    </div>
+                    <p>Découverte du framework PHP Symfony pour structurer une application web.</p>
+                    <ul class="tags"><li>PHP</li><li>Framework</li><li>MVC</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="formation" data-comp="B1.2">
+                    <div class="mission-haut">
+                        <span class="mission-logo"><img src="assets/img/arduino.svg" alt=""></span>
+                        <div>
+                            <p class="mission-contexte">Formation</p>
+                            <h3>Station météo</h3>
+                        </div>
+                    </div>
+                    <p>Remplacement d'une carte mère hors service par une carte Arduino pour refaire fonctionner les capteurs d'une station météo.</p>
+                    <ul class="tags"><li>Arduino</li><li>Capteurs</li><li>Dépannage</li></ul>
+                    <div class="mission-comp"></div>
+                    <span class="lien-doc desactive"><svg class="icone"><use href="#i-file"/></svg>Documentation à venir</span>
+                </article>
+
+                <article class="mission" data-categorie="personnel" data-comp="B1.3 B1.6">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">AUTO</span>
+                        <div>
+                            <p class="mission-contexte">Personnel</p>
+                            <h3>Site de vente automobile</h3>
+                        </div>
+                        <span class="statut">En cours</span>
+                    </div>
+                    <p>Site de gestion de vente de véhicules : base de données, formulaires et authentification.</p>
+                    <ul class="tags"><li>PHP</li><li>MySQL</li><li>Authentification</li></ul>
+                    <div class="mission-comp"></div>
+                </article>
+
+                <article class="mission" data-categorie="personnel" data-comp="B1.6">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">FNF</span>
+                        <div>
+                            <p class="mission-contexte">Personnel</p>
+                            <h3>Mini-jeu FNF</h3>
+                        </div>
+                        <span class="statut">En cours</span>
+                    </div>
+                    <p>Création d'un mini-jeu de rythme inspiré de Friday Night Funkin'.</p>
+                    <ul class="tags"><li>Lua</li><li>Jeu vidéo</li></ul>
+                    <div class="mission-comp"></div>
+                </article>
+
+                <article class="mission" data-categorie="personnel" data-comp="B1.3 B1.6">
+                    <div class="mission-haut">
+                        <span class="mission-logo logo-texte">WEB</span>
+                        <div>
+                            <p class="mission-contexte">Personnel</p>
+                            <h3>Ce portfolio</h3>
+                        </div>
+                    </div>
+                    <p>Site statique en HTML, CSS et JavaScript, versionné sur GitHub et consultable en ligne par le jury.</p>
+                    <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub</li></ul>
+                    <div class="mission-comp"></div>
+                    <a class="lien-doc" href="https://github.com/MatheoTfny" target="_blank" rel="noopener">
+                        <svg class="icone"><use href="#i-github"/></svg>Voir sur GitHub
+                    </a>
+                </article>
+            </div>
+
+            <h2 class="titre-bloc" id="synthese-e5">Tableau de synthèse E5</h2>
+            <p class="petit">Une coche = la réalisation mobilise la compétence. Survole un code pour voir son intitulé.</p>
+            <div class="tableau-scroll">
+                <table id="synthese" class="synthese"></table>
+            </div>
+            <a class="lien-doc" href="assets/docs/tableau-synthese.pdf" target="_blank" rel="noopener">
+                <svg class="icone"><use href="#i-file"/></svg>Tableau de synthèse officiel (PDF)
+            </a>
+        </section>
+    </main>
+
+    <footer class="pied">© <span id="annee">2026</span> Mathéo THEFANY · BTS SIO option SLAM</footer>
+
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/missions.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(180deg, #0c1130 0%, #33264f 62%, #8a3d3a 100%);
+}
